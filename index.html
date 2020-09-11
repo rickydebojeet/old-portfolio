@@ -1,5 +1,179 @@
----
-layout: default
-title: Home
----
-<h1>{{ "Hello World!" | downcase }}</h1>
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>My Personal Portfolio</title>
+  <script src="https://kit.fontawesome.com/3d538455b1.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+  rel="stylesheet"
+/>
+
+<link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body translate="no" >
+  <!--Start Navigation Bar-->
+
+<nav id="navbar" class="nav">
+  <div class="author">
+    <span id="author-name" class="author-name"><a href="#welcome-section">Debojeet Das</a></span>
+  </div>
+  <div class="nav-list">
+    <ul class="nav-list">
+      <li>
+        <a href="#about-section">About</a>
+      </li>
+      <li>
+        <a href="#projects">Portfolio</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--End Navigation Bar-->
+
+<!--Start Welcome Section-->
+
+<section id="welcome-section" class="welcome-section">
+  <h1>Hey, I do code!</h1>
+</section>
+
+<!--End Welcome Section-->
+
+<!--Start About Section-->
+
+<section id="about-section" class="about-section">
+  <h2>About</h2>
+  <p>Hello there! People call me Debojeet Das. I'm basically a computer science student who is deeply interested in technology and I also want to learn more about computer science, how it works and how can we develop it to another level.<br><br>I enjoy solving problems and make technology easy for people to use. I just can't keep my hands off from learning new things and mastering my skills; as the saying goes, "if you know you can do better, then do better". So, developing apps and software which will make life easier is the main motto of my life.<br><br>This website of mine is designed by me. If you have any queries about web development and software designs, you can drop a mail to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="711514131e1b1414051e1717181218101d31161c10181d5f121e1c">[email&#160;protected]</a> </p>
+  <div id="skills" class="skills">
+    <u><h3>Skills</h3></u>
+    <div class="skills-row">
+      <div class="skills-items" id="html5">
+        <span class="fab fa-html5"></span>
+        <p>HTML5</p>
+      </div>
+      <div class="skills-items" id="css3">
+        <span class="fab fa-css3-alt"></span>
+        <p>CSS3</p>
+      </div>
+      <div class="skills-items" id="sass">
+        <span class="fab fa-sass"></span>
+        <p>Sass</p>
+      </div>
+      <div class="skills-items" id="c">
+        <span class="fab fa-cuttlefish"></span>
+        <p>C</p>
+      </div>
+      <div class="skills-items" id="js">
+        <span class="fab fa-js-square"></span>
+        <p>JS</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--End About Section-->
+
+<!--Start Projects Section-->
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">My Works</h2>
+  <p class="projects-section-details">Here's list of most of the projects I've been working on lately. All my personal and freecodecamp projects are included.</p>
+
+  <div class="projects-grid">
+    <a href="https://codepen.io/rickydebojeet/full/exqwJx" target="_blank" class="project project-title">
+      <img class="project-image" src="https://res.cloudinary.com/daezpv949/image/upload/v1561384306/Screenshot_57_ls2cp4.png" alt="project"/>
+      <p class="project-titles">
+        <span class="code">&lt;</span>
+        Tribute Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a href="https://codepen.io/rickydebojeet/full/pYyZjX" target="_blank" class="project project-title">
+      <img class="project-image" src="https://res.cloudinary.com/daezpv949/image/upload/v1561384301/Screenshot_58_nsaziq.png" alt="project"/>
+      <p class="project-titles">
+        <span class="code">&lt;</span>
+        Survey Form
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a href="https://codepen.io/rickydebojeet/full/xeLaEG" target="_blank" class="project project-title">
+      <img class="project-image" src="https://res.cloudinary.com/daezpv949/image/upload/v1561384301/Screenshot_60_yshh1h.png" alt="project"/>
+      <p class="project-titles">
+        <span class="code">&lt;</span>
+        Product Landing Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a href="https://codepen.io/rickydebojeet/full/oOpYQe" target="_blank" class="project project-title">
+      <img class="project-image" src="https://res.cloudinary.com/daezpv949/image/upload/v1561384301/Screenshot_59_fzofyu.png" alt="project"/>
+      <p class="project-titles">
+        <span class="code">&lt;</span>
+        Technical Documentation Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+  </div>
+
+  <a href="https://codepen.io/rickydebojeet/" class="btn btn-show-all" target="_blank">Show all<i class="fas fa-chevron-right"></i></a>
+</section>
+
+<!--End Projects Section-->
+
+<!--Start Contacts Section-->
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>Want to contact me?</h2>
+    <p>Contact me using following or send me an email to <a href="/cdn-cgi/l/email-protection#412524232e2b2424352e2727282228202d01262c20282d6f222e2c" class="mail" target="_blank"><span class="__cf_email__" data-cfemail="82e6e7e0ede8e7e7f6ede4e4ebe1ebe3eec2e5efe3ebeeace1edef">[email&#160;protected]</span> <i class="fas fa-envelope"></i></a></p>
+  </div>
+
+  <div class="contact-links">
+    <a href="https://www.facebook.com/debojeetdas.official" target="_blank" id="fac" class="btn contact-details">
+      <i class="fab fa-facebook"></i>
+      Facebook
+    </a>
+    <a href="https://github.com/rickydebojeet" target="_blank" id="git" class="btn contact-details">
+      <i class="fab fa-github"></i>
+      Github
+    </a>
+    <a href="https://twitter.com/DebojeetDas3" target="_blank" id="twet" class="btn contact-details">
+      <i class="fab fa-twitter"></i>
+      Twitter
+    </a>
+  </div>
+</section>
+
+<!--End Contact Section-->
+
+<!--Start Footer Section-->
+
+<footer>
+  <p>Thanks for visiting</p>
+  <p>&copy; Created for <a href="https://www.freecodecamp.com/" target="_blank" class="link" id="profile-link">freecodecamp <i class="fab fa-free-code-camp"></i></a> by Debojeet Das</p>
+</footer>
+
+<!--End Footer-->
+  
+  
+  
+  
+  
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+
+</html>
+ 
