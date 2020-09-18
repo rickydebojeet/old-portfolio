@@ -40,14 +40,10 @@ a.navbar-item.is-active {
 
 #hero {
     background: rgb(0, 0, 0);
-    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
     &::before {
-        filter: blur(0.15rem);
-        background-image: url({{site.heroimage}});
+        background-image: url("https://res.cloudinary.com/daezpv949/image/upload/v1561320542/WiONHd_zYI4_Full_dotjzc.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -57,7 +53,6 @@ a.navbar-item.is-active {
         bottom: 0px;
         left: 0px;
         position: absolute;
-        opacity: 0.25;
         content: "";
     }
 }
