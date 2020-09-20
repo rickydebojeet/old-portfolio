@@ -1,4 +1,3 @@
-# WhatATheme
 markdown: kramdown
 
 # URL of the Site
@@ -23,16 +22,10 @@ heroimage: https://res.cloudinary.com/daezpv949/image/upload/v1561320542/WiONHd_
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: debojeetofficial@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+facebook_username: debojeetdas.official
+twitter_username: thedebojeetdas
+linkedin_username: /
+github_username:  rickydebojeet
 
 # Google Analytics
 google-analytics: UA-163806439-1
@@ -47,8 +40,7 @@ author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-pictu
 # 60 Words About the Author
 author-about: Hello there! People call me Debojeet Das. I'm basically a computer science student who is deeply interested in technology and I also want to learn more about computer science, how it works and how can we develop it to another level.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
-
+author-url: https://github.com/rickydebojeet
 # SASS
 sass:
   sass_dir: _sass
