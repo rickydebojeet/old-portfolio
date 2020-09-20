@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # WhatATheme
 **WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
 
@@ -60,3 +61,6 @@ v0.0.1beta-1 is best viewed in computers with resolution 1366 x 768
 
 Improvement coming soon. :trollface:
 >>>>>>> master
+=======
+WIP
+>>>>>>> 4a923f0239d98ae323da26e87507cce091c83563
