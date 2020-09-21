@@ -14,7 +14,7 @@ site-image: #
 # Keywords of the Site
 site-keywords: Coding, Machine Learning, C, Python
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: https://res.cloudinary.com/daezpv949/image/upload/v1600714223/logo_xhpez5.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://res.cloudinary.com/daezpv949/image/upload/v1561320542/WiONHd_zYI4_Full_dotjzc.jpg
