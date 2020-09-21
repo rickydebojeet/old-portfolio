@@ -17,17 +17,156 @@
             </div>
         </div>
 </section>
-<div class="columns">
-    <div class="column">
-      First column
+
+<!-- 
+<section class="section has-background-black">
+  <div class="columns">
+    <div class="column has-text-centered has-background-black">
+      <br>
+      
+      <hr>
+      {% for education-item in site.data.education %}
+        <li>{{ education-item.course }}</li>
+        <li>{{ education-item.place }}</li>
+        <li>{{ education-item.period }}</li>
+      {% endfor %}
     </div>
-    <div class="column">
-      Second column
+    <div class="column has-text-centered has-background-black">
+      <br>
+      <h3 class="title is-3 has-text-white">Tools</h3>
+      <hr>
+      {% for tool in site.data.tools %}
+        <li>{{ tool }}</li><br>
+      {% endfor %}
     </div>
-    <div class="column">
-      Third column
+    <div class="column has-text-centered has-background-black">
+      <br>
+      
+      {% for technique in site.data.technologies %}
+        <li>{{ technique }}</li>
+      {% endfor %}
     </div>
-    <div class="column">
-      Fourth column
+    <div class="column has-text-centered has-background-black">
+      <br>
+      
+      {% for certificate in site.data.certifications %}
+        <li>{{ certificate }}</li>
+      {% endfor %}
     </div>
   </div>
+</section> -->
+
+<section class="section has-background-black">
+  <div class="tile is-ancestor">
+    <div class="tile is-parent">
+      <article class="tile is-child box">
+        <h3 class="title is-3">Education</h3>
+        <hr>
+        {% for education-item in site.data.education %}
+        <p>- {{ education-item.course }}</p>
+        <p> &nbsp; {{ education-item.place }}</p>
+        <p> &nbsp; {{ education-item.period }}</p>
+        <br>
+        {% endfor %}
+      </article>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box">
+        <h3 class="title is-3">Tools</h3>
+        <hr>
+        {% for tool in site.data.tools %}
+        <p>- {{ tool }}</p>
+        {% endfor %}
+      </article>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box">
+        <h3 class="title is-3">Technologies</h3>
+        <hr>
+        {% for technique in site.data.technologies %}
+        <p>- {{ technique }}</p>
+        {% endfor %}
+      </article>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box">
+        <h3 class="title is-3">Certifications</h3>
+        <hr>
+        {% for certificate in site.data.certifications %}
+        <p>- {{ certificate }}</p>
+        {% endfor %}
+      </article>
+    </div>
+  </div>
+  <!--
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-9">
+      <div class="tile">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">Five</p>
+            <p class="subtitle">Subtitle</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+            </div>
+          </article>
+        </div>
+        <div class="tile is-8 is-vertical">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <p class="title">Six</p>
+                <p class="subtitle">Subtitle</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <p class="title">Seven</p>
+                <p class="subtitle">Subtitle</p>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Eight</p>
+              <p class="subtitle">Subtitle</p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="tile">
+        <div class="tile is-8 is-parent">
+          <article class="tile is-child box">
+            <p class="title">Nine</p>
+            <p class="subtitle">Subtitle</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            </div>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">Ten</p>
+            <p class="subtitle">Subtitle</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box">
+        <div class="content">
+          <p class="title">Eleven</p>
+          <p class="subtitle">Subtitle</p>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+            <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>-->
+  
+</section>
