@@ -41,7 +41,7 @@
         <h3 class="title is-3 has-text-dark">Tools</h3>
         <hr style="height: 2px ;background-color:grey">
         {% for tool in site.data.tools %}
-        <p>- {{ tool }}</p>
+        <p>- {{ tool }}</p>     
         {% endfor %}
       </article>
     </div>
@@ -50,7 +50,7 @@
         <h3 class="title is-3 has-text-dark">Technologies</h3>
         <hr style="height: 2px ;background-color:grey">
         {% for technique in site.data.technologies %}
-        <p>- {{ technique }}</p>
+        <p>- {{ technique }}</p>       
         {% endfor %}
       </article>
     </div>
@@ -72,7 +72,10 @@
         <p class="title">About this site</p>
         <hr style="height: 2px ;background-color:grey">
         <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          {% for content in site.data.aboutsite %}
+          <p>> {{ content }}</p>
+          <p></p>
+          {% endfor %}
         </div>
       </article>
     </div>
