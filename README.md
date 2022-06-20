@@ -1,6 +1,8 @@
 # Personal Portfolio Website
-## Work in progress
+## Deprecated
+
+The website is shifted to a newer portfolio with better features and accessibility.
 
 
-Improvement coming soon. :octocat:
+See you in the new site. :octocat:
 
